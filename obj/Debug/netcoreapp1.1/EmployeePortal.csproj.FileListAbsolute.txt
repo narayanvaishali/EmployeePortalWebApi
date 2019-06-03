@@ -1,0 +1,9 @@
+C:\ReactJS\EmployeePortal\EmployeePortal\bin\Debug\netcoreapp1.1\EmployeePortal.deps.json
+C:\ReactJS\EmployeePortal\EmployeePortal\bin\Debug\netcoreapp1.1\EmployeePortal.runtimeconfig.json
+C:\ReactJS\EmployeePortal\EmployeePortal\bin\Debug\netcoreapp1.1\EmployeePortal.runtimeconfig.dev.json
+C:\ReactJS\EmployeePortal\EmployeePortal\obj\Debug\netcoreapp1.1\EmployeePortal.AssemblyInfo.cs
+C:\ReactJS\EmployeePortal\EmployeePortal\bin\Debug\netcoreapp1.1\EmployeePortal.dll
+C:\ReactJS\EmployeePortal\EmployeePortal\bin\Debug\netcoreapp1.1\EmployeePortal.pdb
+C:\ReactJS\EmployeePortal\EmployeePortal\obj\Debug\netcoreapp1.1\EmployeePortal.dll
+C:\ReactJS\EmployeePortal\EmployeePortal\obj\Debug\netcoreapp1.1\EmployeePortal.pdb
+C:\ReactJS\EmployeePortal\EmployeePortal\obj\Debug\netcoreapp1.1\EmployeePortal.csprojResolveAssemblyReference.cache
