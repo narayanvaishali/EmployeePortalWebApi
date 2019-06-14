@@ -9,14 +9,16 @@ using System.Dynamic;
 using Newtonsoft.Json;
 using System.Collections;
 using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.Mvc;
 
-namespace StrongBox.Models
+namespace EmployeePortal.Models
 {
     public class ProfileDataAccessLayer
     {
         string connectionString = "local connection string details";
 
-        public dynamic GetEmployeeData(int ClientID, int occupationtypeid, string what)
+        //public dynamic GetEmployeeData(int ClientID, int occupationtypeid, string what)
+        public dynamic GetEmployeeData(int employeeid)
         {
             dynamic jsonObject = new JObject();
             jsonObject.ClientID = 95212;
@@ -24,13 +26,22 @@ namespace StrongBox.Models
             jsonObject.Surname = "BEAN";
             jsonObject.Address1 = "29 Kelber & dale Close";
             jsonObject.DOB = "1950-06-01T00,00,00";
-            jsonObject.Email = "sabin.dangol@giantgroup.com";
+            jsonObject.Email = "sabin.dangol@gmail.com";
 
             dynamic objEmp = new ExpandoObject();
-            objEmp.staticdata = new dynamic[1];
-            objEmp.staticdata[0] = new ExpandoObject();
-            objEmp.staticdata[0] = jsonObject;           
-            return objEmp;
+
+            if (employeeid == 95212)
+            {
+                objEmp.staticdata = new dynamic[1];
+                objEmp.staticdata[0] = new ExpandoObject();
+                objEmp.staticdata[0] = jsonObject;
+                return objEmp;
+            }
+            else
+            {
+               return null;
+            }
+            
 
           
             //using (var _conn = new SqlConnection(connectionString))
