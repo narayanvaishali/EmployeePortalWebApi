@@ -22,11 +22,11 @@ namespace EmployeePortal.Models
         {
             dynamic jsonObject = new JObject();
             jsonObject.ClientID = 95212;
-            jsonObject.Chrisname = "Saw1233";
+            jsonObject.Chrisname = "TestUser";
             jsonObject.Surname = "BEAN";
             jsonObject.Address1 = "29 Kelber & dale Close";
             jsonObject.DOB = "1950-06-01T00,00,00";
-            jsonObject.Email = "sabin.dangol@gmail.com";
+            jsonObject.Email = "testuser@gmail.com";
 
             dynamic objEmp = new ExpandoObject();
 
